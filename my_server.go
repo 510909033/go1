@@ -12,7 +12,7 @@ import (
 var host = flag.String("host", "", "host")
 var port = flag.String("port", "3333", "port")
 
-func main() {
+func server() {
 	flag.Parse()
 	var l net.Listener
 	var err error
